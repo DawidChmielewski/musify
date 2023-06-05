@@ -1,0 +1,51 @@
+@mixin flexBox() {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  height: 15vh;
+  display: flex;
+  background-color: #ffffff;
+  user-select: none;
+  border-bottom: 1px solid #e0e0e0;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+
+  div {
+    @include flexBox;
+  }
+
+  .navigation {
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+  }
+
+  .language {
+    padding: 10px;
+    color: black;
+  }
+
+  .Dropdown-btn {
+    display: flex;
+    .wrapper {
+      padding: 0;
+      flex-direction: column;
+
+      p{
+        color: black;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  nav {
+    display: none;
+  }
+}

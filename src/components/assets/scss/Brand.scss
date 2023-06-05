@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.brand{
+  a{
+    background-color: #ffffff;
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,0.2),
+                0 3px 10px 1px rgba(0,0,0,0.14),
+                0 10px 10px 0 rgba(0,0,0,0.12);
+    padding: 5px;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h1{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-family: 'Pacifico', cursive;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #000000;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .brand{
+    display: none;
+  }
+}
+
+.brand:hover{
+  a{
+    background-color: rgb(98, 98, 98);
+    h1{
+      color: rgb(255, 255, 255);
+    }
+  }
+}
