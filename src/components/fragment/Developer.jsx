@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/scss/Developer.scss';
 import {IconButton} from "@material-ui/core";
-import {Facebook, Instagram, LinkedIn, Portrait, Twitter} from "@material-ui/icons";
+import {Facebook, Instagram, LinkedIn, Twitter} from "@material-ui/icons";
 
 const Developer = () => {
     return (

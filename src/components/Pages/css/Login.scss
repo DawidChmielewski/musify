@@ -22,7 +22,7 @@ body::-webkit-scrollbar-track {
   font-family: Consolas, sans-serif;
   background: #1e1717;
   background: linear-gradient(110deg, #434343 50%, #6d6d6d 50%);
-  height: 108vh;
+  height: 100vh;
   text-align: center;
   display: flex;
   flex-flow: column wrap;
@@ -73,9 +73,14 @@ body::-webkit-scrollbar-track {
   flex-grow: 1;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
+  .main{
+    position: fixed;
+    top: 0px;
+    margin-bottom: -20px;
+  }
   .main-row {
-    height: 70%;
+    height: 60%;
     width: 38%;
     justify-content: center;
     padding: 20px;
@@ -109,7 +114,7 @@ h1 {
 }
 
 p {
-  color: #f8eeee;
+  color: #000000;
   font-size: 1.2rem;
   margin-top: 20px;
   font-family: 'Geologica', sans-serif;

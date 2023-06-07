@@ -41,7 +41,7 @@ const Search = () => {
                             searchResult.length === 0
                                 ?
                                 <div className={"Search-fallback"}>
-                                    No result found.
+                                    <center><h2>No result found.</h2></center>
                                 </div>
                                 :
                                 searchResult.map((item) => (

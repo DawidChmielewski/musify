@@ -1,8 +1,11 @@
 .CurrentPlayingLarge{
   height: 90vh;
+  width: 100%;
   display: flex;
-  position: relative;
-  margin-bottom: -10px;
+  position: fixed;
+  z-index: 99;
+  background-color: transparent;
+  transition: opacity 1s ease;
 
   .music-left{
     position: relative;
@@ -15,6 +18,7 @@
     .wrapper{
       display: flex;
       flex-direction: column;
+      transition: opacity 1s ease;
     }
     .music-cover {
       height: 90%;
@@ -27,6 +31,7 @@
       overflow: hidden;
       padding: 5px;
       border-radius: 30px;
+      transition: opacity 2s ease;
     }
     
     .music-cover img {
@@ -34,14 +39,15 @@
       max-width: 400px;
       border-radius: 40px;
       scale: 1.1;
+      transition: opacity 1s ease;
     }
     
     .detail{
-      padding: 10px;
+      padding: 2px;
       background-color: #000000ae;
       color: azure;
       text-align: center;
-      width: 80%;
+      width: 90%;
       max-width: 400px;
       border-radius: 20px;
       margin-top: 40px;
@@ -49,31 +55,41 @@
       margin-right: auto;
 
       h3{
-        font-size: 25px;
+        font-size: 20px;
         letter-spacing: 2px;
       }
 
       p {
-        font-size: 15px;
+        font-size: 20px;
+        color: rgb(195, 195, 195);
       }
     }
   }
 }
 .banner{
+  z-index: -10;
   position: absolute;
-  scale: 1.1;
+  scale: 1.05;
   object-fit: cover;
   margin-left: -1%;
   width: 101%;
   height: 100%;
   object-position: center;
   filter: blur(15px);
-  margin-bottom: -10px;
+  margin-bottom: 10px;
+  transition: opacity 1s ease;
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 700px) {
   .CurrentPlayingLarge{
     height: 90vh;
-    margin-top: -60px;
+    margin-top: -4vh;
+  }
+  .music-cover{
+    position: relative;
+    transition: opacity 1s ease;
+  }
+  .detail{
+    font-size: 20px;
   }
 }

@@ -43,14 +43,13 @@ function Profile() {
                     <div className="profile-detail">
                         <h3>Someone who everyone knows</h3>
                         <span className={"profile-playlist"}>
-                            <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/instrumental"} 
-                                            title={"Instrumental"}/>
 
-                            <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/electronic"}
-                                            title={"Electronic"}/>
-
-                            <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/techno"}
-                                            title={"Techno"}/>
+                        <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/electronic"}  title={"Electronic"}/>
+                        <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/drill"}  title={"Drill"}/>
+                        <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/pop"}  title={"Pop"}/>
+                        <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/rock"}  title={"Rock"}/>
+                        <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/dance-pop"}  title={"Dance-Pop"}/>
+                        <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/rap"}  title={"Rap"}/>
                         </span>
                     </div>
                 </div>

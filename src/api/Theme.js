@@ -2,15 +2,15 @@ import React from "react";
 
 export const themes = {
     light: {
-        theme: "#07689f",
-        subTheme: "#a2d5f2",
+        theme: "#595959",
+        subTheme: "#bbbcbd",
         component:{
             backgroundColor: "#f6f6f6",
             color: "#2b2024",
         },
         button:{
             onHover:{
-                backgroundColor:"#a2d5f2",
+                backgroundColor:"#bbbcbd",
                 color:"#191919"
             },
             contained:{
@@ -28,14 +28,14 @@ export const themes = {
     },
     dark: {
         theme:"#4ecca3",
-        subTheme: "#a2d5f2",
+        subTheme: "#bbbcbd",
         component:{
             backgroundColor: "#232931",
             color: "#eeeeee",
         },
         button:{
             onHover:{
-                backgroundColor:"#a2d5f2",
+                backgroundColor:"#bbbcbd",
                 color:"#fafafa"
             },
             contained:{
@@ -56,13 +56,3 @@ export const themes = {
 export const ThemeContext = React.createContext(
     themes.light
 );
-
-/*
-export const ThemeProvider = (props) => {
-    const [theme,setTheme] = useState("light");
-    return (
-        <ThemeContext.Provider value={[theme,setTheme]}>
-            {props.children}
-        </ThemeContext.Provider>
-    );
-}*/

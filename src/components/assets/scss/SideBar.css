@@ -54,7 +54,7 @@
   border-radius: 99px;
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 700px) {
   .aside-bar {
     display: none;
   }

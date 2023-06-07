@@ -2,7 +2,7 @@
   flex: 1;
   padding: 0;
   position: relative;
-  margin: 0 50px;
+  margin: 0 40px;
   transition: margin .15s ease-in-out;
 
   .search-container {
@@ -28,7 +28,7 @@
   .SearchBar-customPlaceholderOpen {
     cursor: text;
     position: absolute;
-    width: 100%;
+    width: 90%;
   }
 
   .SearchBar-customPlaceholderClose {
@@ -51,7 +51,8 @@
 }
 
 .open {
-  margin: 0;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 @media only screen and (max-width: 215px) {

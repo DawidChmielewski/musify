@@ -1,27 +1,37 @@
 .Footer_Select_Music {
+  position: fixed;
   width: 100%;
-  margin-top: -10px;
-  background-color: #45454500;
+  bottom: 0vh;
   height: 5vh;
   z-index: 99999;
-  a{
-    color: #454545;
+  background-color: #595959;
+
+  a {
+    color: #000000;
     text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: Consolas,sans-serif;
+    font-family: Consolas, sans-serif;
     font-size: 1.5rem;
     line-height: 5vh;
     display: block;
     width: 100%;
+    z-index: 99999;
     height: 100%;
   }
 }
-@media only screen and (max-width: 445px) {
-  .Footer_Select_Music{
-    a{
+
+@media only screen and (max-width: 700px) {
+  .Footer_Select_Music {
+    z-index: 99999;
+    line-height: 6vh;
+    position: fixed;
+    bottom: 9vh;
+    a {
+      position: fixed;
+      z-index: 99999;
       line-height: 5vh;
-      margin-top: 10px;
+      margin-top: 0px;
     }
   }
 }

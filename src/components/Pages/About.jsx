@@ -11,7 +11,9 @@ const About = () => {
                 <Developer/>
                 
             </div>
+            <br></br>
         </Container>
+        
     );
 }
 
