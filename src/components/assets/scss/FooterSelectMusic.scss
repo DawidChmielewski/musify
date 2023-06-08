@@ -8,6 +8,7 @@
 
   a {
     color: #000000;
+    background-color: #595959;
     text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -24,14 +25,16 @@
 @media only screen and (max-width: 700px) {
   .Footer_Select_Music {
     z-index: 99999;
-    line-height: 6vh;
+    line-height: 5vh;
     position: fixed;
-    bottom: 9vh;
+    bottom: 3vh;
+    background-color: #595959;
     a {
       position: fixed;
       z-index: 99999;
-      line-height: 5vh;
-      margin-top: 0px;
+      line-height: 6vh;
+      background-color: #595959;
+      margin-top: -50px;
     }
   }
 }

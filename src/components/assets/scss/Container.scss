@@ -3,7 +3,6 @@
   height: 120vh;
   padding: 30px;
   width: 100%;
-  bottom: 30px;
   overflow: scroll;
   >div{
     height: 100%;
@@ -12,9 +11,12 @@
 @media only screen and (max-width: 700px) {
   .Container {
     position: fixed;
-    height: 65vh;
+    height: 75.5%;
     padding: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
     top: 50px;
+    bottom: 20px;
     width: 100%;
     margin-left: 0px;
   }
@@ -23,11 +25,10 @@
 @media only screen and (min-width: 700px) {
   .Container {
     width: 90%;
-    height: 83vh;
+    height: 85vh;
     font-size: 13px;
     left: 180px;
     right: 80px;
     top: 11.7vh;
-    margin-bottom: 100px;
   }
 }
